@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+    body{
+        background-color:  hsl(242, 37%, 87%);
+    }
+    main{
+        padding: 30px;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 1;
+        grid-template-areas: 'aside section';
+        justify-content: center;
+        align-items: center;
+    }
+    aside, section{
+        height: 450px;
+        
+    }
+    section{
+        background-color: white;
+        border-radius: 0px 23px 23px 0px;
+        padding-left: 30px;
+    }
+}
