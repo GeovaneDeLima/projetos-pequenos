@@ -7,6 +7,7 @@ div.header{
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    font-size: 1.2em;
 }
 div.header img{
     flex: 1 1;
@@ -37,6 +38,7 @@ article{
     align-items: center;
     padding: 10px 60px;
     gap: 10px;
+    font-size: 1.2em;
 }
 article.dois{
     flex-direction: row;
