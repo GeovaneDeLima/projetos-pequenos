@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+div.header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+div.header img{
+    flex: 1 1;
+    max-width: 720px;
+    min-width: 300px;
+}
+nav{
+    padding: 0px 30px;
+}
+div.header section{
+    text-align: start;
+    margin-top: 27px;
+    flex: 2 2 auto;
+    
+}
+section.hed a{
+    margin: 20px 0px;
+}
+section.hed p{
+    font-size: 1.2em;
+    width: auto;
+    margin: 10px 0px;
+}
+article{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 60px;
+    gap: 10px;
+}
+article.dois{
+    flex-direction: row;
+}
+article.dois div{
+    text-align: end;
+}
+article div{
+    text-align: start;
+    padding: 15px 0px;
+    flex-shrink: 1;
+
+}
+article div h2{
+    margin-left: 5px;
+}
+article img{
+    min-width: 220px;
+
+}
+aside{
+    width: 50%;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-basis: auto;
+    align-items: center;
+    gap: 20px;
+}
+section#contato{
+    width: 40%;
+}
+ul{
+    columns: 2;
+}

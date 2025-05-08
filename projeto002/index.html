@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="estilo/style.css">
-  
+  <link rel="stylesheet" href="estilo/media.css" media="screen and (min-width: 690px)">
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 </head>
 <body>
@@ -34,33 +34,37 @@
     <article class="um">
       <img src="images/illustration-grow-together.svg" alt="imagem inlustrativa">
 
-      <h2>Grow Together</h2>
-
-      <p>
-        Generate meaningful discussions with your audience and build a strong, loyal community.
-        Think of the insightful conversations you miss out on with a feedback form.
-      </p>
+      <div>
+        <h2>Grow Together</h2>
+        <p>
+          Generate meaningful discussions with your audience and build a strong, loyal community.
+          Think of the insightful conversations you miss out on with a feedback form.
+        </p>
+      </div>
     </article>
     <article class="dois">
       <img src="images/illustration-flowing-conversation.svg" alt="imagem inlustrativa">
 
-      <h2>Flowing Conversations</h2>
-
-      <p>
-        You wouldn't paginate a conversation in real life, so why do it online? Our threads
-        have just-in-time loading for a more natural flow.
-      </p>
+      <div>
+        <h2>Flowing Conversations</h2>
+        <p>
+          You wouldn't paginate a conversation in real life, so why do it online? Our threads
+          have just-in-time loading for a more natural flow.
+        </p>
+      </div>
     
     </article>
     <article class="três">
       <img src="images/illustration-your-users.svg" alt="imagem inlustrativa">
 
-      <h2>Your Users</h2>
-
-    <p>
-      It takes no time at all to integrate Huddle with your app's authentication solution.
-      This means, once signed in to your app, your users can start chatting immediately.
-    </p>
+      <div>
+        <h2>Your Users</h2>
+        
+            <p>
+        It takes no time at all to integrate Huddle with your app's authentication solution.
+        This means, once signed in to your app, your users can start chatting immediately.
+            </p>
+      </div>
     </article>
   </main>
   <aside>
@@ -69,20 +73,23 @@
 
   </aside>
   <footer>
-    <section>
-      <img src="images/logo.svg" alt="logo">
+    <section id="contato">
+      <img class="logo" src="images/logo_branca.svg" alt="logo">
 
-      <div class="local">
+      <div class="contato">
+        <img src="images/icon-location.svg" alt="localização">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua
         </p>
       </div>
-      <div class="telefone">
+      <div class="contato">
+        <img src="images/icon-phone.svg" alt="icone de um telefone">
         <p>  +1-543-123-4567
         </p>
       </div>
-      <div class="email">
+      <div class="contato">
+        <img src="images/icon-email.svg" alt="icone de um email">
         <p>example@huddle.com</p>
       </div>
     </section>
@@ -98,8 +105,15 @@
         <li><a href="#">Contact Us</a></li>
       </ul>
     </section>
-    <div class="copy">
-      <p> &copy; Copyright 2018 Huddle. All rights reserved.</p>
+    <div>
+      <div class="icons">
+        <a href="#"><img src="images/facebook_white_icon.png" alt="facebook"></a>
+        <a href="#"><img src="images/twitter_white_icon.png" alt="twitter"></a>
+        <a href="#"><img src="images/instagram_white_icon.png" alt="instagram"></a>
+      </div>
+      <div class="copy">
+        <p> &copy; Copyright 2018 Huddle. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 

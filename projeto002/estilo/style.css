@@ -85,7 +85,7 @@ article{
     width: 80%;
     margin: auto;
     margin-top: 20px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.216);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.216);
     padding: 30px;
     border-radius: 20px;
 }
@@ -109,7 +109,7 @@ aside{
     width: 80%;
     text-align: center;
     padding: 40px 15px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.216);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.216);
     border-radius: 20px;
     transform: translate(0px, 100px);
    
@@ -117,5 +117,55 @@ aside{
 footer{
     background-color: var(--footer);
     color: white;
-    padding: 150px 10px 10px 10px;
+    padding: 150px 20px 20px 20px;
+}
+img.logo{
+    width: 150px;
+    margin-bottom: 20px;
+
+}
+div.contato img{
+    width: 15px;
+    transform: translate(0px, 7px);
+}
+div.contato{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+ul{
+    list-style: none;
+
+}
+li{
+    margin-bottom: 10px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    text-decoration: underline;
+}
+div.icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px;
+}
+div.icons img{
+    width: 30px;
+}
+div.icons img:hover{
+    transform: translate(0px, -4px);
+    transition: transform 0.5s;
+
+}
+div.copy{
+    margin: auto;
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: -20px;
+    color: rgb(168, 163, 163);
 }
