@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link rel="stylesheet" href="estilo/style.css">
+  
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
 </head>
@@ -31,54 +33,56 @@
         Access them wherever you need, share and collaborate with friends,
         family, and co-workers.
       </p>
-      <div>
-        <input type="email" name="email" id="email">
-        <input type="submit" value="Get Started">
+      <div class="input">
+        <form method="post">
+          <input type="email" name="email" id="email" placeholder="enter your email..">
+          <input class="buton1" type="submit" value="Get Started">
+        </form>
       </div>
       
     </div>
   </aside>
-<article>
-  <img src="images/illustration-2.svg" alt="imagem inlustrativa">
+  <article>
+    <img src="images/illustration-2.svg" alt="imagem inlustrativa">
 
-  <div class="text">
-    <h1>Stay productive, wherever you are</h1>
-
-    <p>
-      Never let location be an issue when accessing your files. Fylo has you
-      covered for all of your file storage needs.
-    </p>
-
-    <p>
-      Securely share files and folders with friends, family and colleagues for
-      live collaboration. No email attachments required!
-    </p>
-
-    <div class="link">
-      <a href="#">See how Fylo works</a>
-      <img src="images/icon-arrow.svg" alt="ceta para a direita">
-    </div>
-    
-    <section>
-      <img src="images/icon-quotes.svg" alt="aspas">
+    <div class="text">
+      <h1>Stay productive, wherever you are</h1>
 
       <p>
-        Fylo has improved our team productivity by an order of magnitude. Since
-        making the switch our team has become a well-oiled collaboration machine.
+        Never let location be an issue when accessing your files. Fylo has you
+        covered for all of your file storage needs.
       </p>
-      <div class="perfil">
 
-        <img src="images/avatar-testimonial.jpg" alt="">
+      <p>
+        Securely share files and folders with friends, family and colleagues for
+        live collaboration. No email attachments required!
+      </p>
 
-        <div class="nome">
-          <h3>Kyle Burton</h3>
-          
-          <h4>Founder & CEO, Huddle</h4>
-        </div>
+      <div class="link">
+        <a href="#">See how Fylo works</a>
+        <img src="images/icon-arrow.svg" alt="ceta para a direita">
       </div>
-    </section>
-  </div>
-</article>
+      
+      <section>
+        <img src="images/icon-quotes.svg" alt="aspas">
+
+        <p>
+          Fylo has improved our team productivity by an order of magnitude. Since
+          making the switch our team has become a well-oiled collaboration machine.
+        </p>
+        <div class="perfil">
+
+          <img src="images/avatar-testimonial.jpg" alt="">
+
+          <div class="nome">
+            <h3>Kyle Burton</h3>
+            
+            <h4>Founder & CEO, Huddle</h4>
+          </div>
+        </div>
+      </section>
+    </div>
+  </article>
 
   <aside id="blue">
     <h1>Get early access today</h1>
@@ -88,8 +92,7 @@
     </p>
     <div>
       <input type="email" name="email2" id="email2">
-      <input type="submit" value="Get Started For Free
-">
+      <input type="submit" value="Get Started For Free">
     </div>
   </aside>
 
@@ -121,7 +124,11 @@
     </div>
 
     <div class="icons">
-      
+      <a href="#"><img src="images/instagram_white_icon.png" alt="logo do instagram"></a>
+
+      <a href="#"><img src="images/facebook_white_icon.png" alt="logo do facbook"></a>
+
+      <a href="#"><img src="images/twitter_white_icon.png" alt="logo do twitter"></a>#
     </div>
   </footer>
 
