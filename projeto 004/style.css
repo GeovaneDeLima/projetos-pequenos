@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(black, rgb(45, 45, 45), rgb(94, 94, 94));
+    
+}
+
+div.corpo{
+    background-color: rgba(255, 255, 255, 0.099);
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.553);
+    color: white;
+    max-width: 600px;
+}
+header h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+div.inp{
+    display: flex;
+    justify-content: space-between;
+}
+section input#add{
+    background-color: rgba(255, 255, 255, 0.307);
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 4px;
+}
+section input#butadd{
+    background-color: rgba(255, 255, 255, 0.099);
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 4px;
+    color: white;
+
+}
+section input#butadd:hover{
+    background-color: rgba(187, 187, 187, 0.479);
+    transform: translate(0px, -2px );
+    transition: transform 0.3s;
+}
+nav{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+
+}
+nav div {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.099);
+}
+nav div:hover{
+    background-color: rgba(187, 187, 187, 0.479);
+    transform: translate(0px, -2px );
+    transition: transform 0.3s;
+}
+nav h4 {
+    transform: translate(0px, 13px);
+}
+article{
+    margin-top: 10px;
+    background-color: rgba(62, 61, 61, 0.895);
+    border-radius: 9px;
+    padding: 5px;
+}
+article h3{
+    text-align: center;
+}
+div.tarefa {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    background-color: rgba(98, 97, 97, 0.784);
+    padding: 5px;
+    border-radius: 5px;
+}
+div.tarefa span:hover{
+    background-color: rgb(108, 108, 108);
+    
+}
+div#exc{
+    background-color: rgb(108, 108, 108);
+    width: 50px;
+    text-align: center;
+    padding: 3px;
+    transform: translate(217px, -63px);
+    display: none;
+    border-radius: 3px;
+    
+}
+footer{
+    text-align: center;
+    color: white;
+    margin: 10px;
+}

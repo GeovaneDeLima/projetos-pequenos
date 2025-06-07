@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="stylesheet" href="style.css">
+    <title>Organizador de Tarefas</title>
+</head>
+<body>
+    <div>
+        <div class="corpo">
+            <header>
+                <h1>Minha To-Do List</h1>
+            </header>
+            <main>
+                <section>
+                    <label for="add">Adicionar tarefas</label>
+                    <div class="inp">
+                        <input type="text" name="add" id="add">
+                        <input type="button" value="Adicionar" id="butadd">
+                    </div>
+                </section>
+                <aside>
+                    <nav>
+                        <h4>Filtrar por</h4>
+                        <div>Todas</div>
+                        <div>Pendentes</div>
+                        <div>Feitos</div>
+                    </nav>
+                </aside>
+                <article>
+                    <h3>Tarefas</h3>
+                    <div class="tarefa">
+                        <p id="sinal">--</p>
+                        <p id="nome">adicione uma tarefa</p>
+                        <p id="icon"><span class="material-symbols-outlined">menu</span>
+                        </p>
+                        
+                    </div>
+                    <div id="exc">
+                            excluir
+                    </div>
+                </article>
+            </main>
+           
+        </div>
+         <footer>
+            <p>&copy; geovanelima</p>
+        </footer>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
