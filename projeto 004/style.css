@@ -33,11 +33,12 @@ div.inp{
     justify-content: space-between;
 }
 section input#add{
-    background-color: rgba(255, 255, 255, 0.307);
+    background-color: rgba(255, 255, 255, 0.216);
     border: none;
     border-radius: 3px;
     padding: 5px;
     margin-top: 4px;
+    color: white;
 }
 section input#butadd{
     background-color: rgba(255, 255, 255, 0.099);
@@ -86,6 +87,7 @@ article h3{
 div.tarefa {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 5px;
     background-color: rgba(98, 97, 97, 0.784);
     padding: 5px;
@@ -93,16 +95,6 @@ div.tarefa {
 }
 div.tarefa span:hover{
     background-color: rgb(108, 108, 108);
-    
-}
-div#exc{
-    background-color: rgb(108, 108, 108);
-    width: 50px;
-    text-align: center;
-    padding: 3px;
-    transform: translate(217px, -63px);
-    display: none;
-    border-radius: 3px;
     
 }
 footer{
