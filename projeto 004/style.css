@@ -97,6 +97,15 @@ div.tarefa span:hover{
     background-color: rgb(108, 108, 108);
     
 }
+p.nome {
+    max-width: 200px;
+}
+p.concluir{
+    padding: 3px;
+}
+p.concluir:hover{
+    background-color: rgb(108, 108, 108);
+}
 footer{
     text-align: center;
     color: white;

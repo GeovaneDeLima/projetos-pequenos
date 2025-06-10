@@ -1,32 +1,47 @@
 const text = document.getElementById('add') 
 const butadd = document.getElementById('butadd')
+const article = document.getElementById('article')
 let tarefa = []
+let feitos = []
+
 
 
 butadd.addEventListener('click', adicionar)
 
 
 function adicionar (){
-    tarefa.push(text.value)
-    let ultimat = tarefa.at(-1)
-    
-    const article = document.getElementById('article')
-    const div = document.createElement('div')
-    const nome = document.createElement('p')
-    const but = document.createElement('span')
-    
-    div.classList.add('tarefa')
-    nome.classList.add('nome')
-    but.classList.add('material-symbols-outlined')
+    if (text.value == ''){
+        alert('Escreva uma tarefa para adicionar')
+    }else {
+        let novatarefa = {
+            nome: text.value,
+            feito: false
+        }
+        tarefa.push(novatarefa)
 
-    article.appendChild(div)
-    div.appendChild(nome)
-    div.appendChild(but)
+        const div = document.createElement('div')
+        const nome = document.createElement('p')
+        const concl = document.createElement('p')
+        const icon = document.createElement('span')
+        
+        div.classList.add('tarefa')
+        concl.classList.add('concluir')
+        nome.classList.add('nome')
+        icon.classList.add('material-symbols-outlined')
 
-    nome.innerHTML = ultimat
-    but.innerHTML = 'delete'
-    
-    nome.addEventListener('click', () => {nome.style.textDecoration = 'line-through'})
-    
-    but.addEventListener('click', () => {div.remove()})
+        article.appendChild(div)
+        div.appendChild(concl)
+        div.appendChild(nome)
+        div.appendChild(icon)
+        
+        concl.innerHTML = '---'
+        nome.innerHTML= novatarefa.nome
+        icon.innerHTML = 'delete'
+        
+        concl.onclick = function(){
+            marcarcomofeita(i)
+        }
+        
+    }
 }
+function marcar()
