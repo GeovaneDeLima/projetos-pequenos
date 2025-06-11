@@ -40,8 +40,12 @@ function adicionar (){
         
         concl.onclick = function(){
             marcarcomofeita(i)
+            nome.style.textDecoration = 'line-through'
+            concl.innerHTML = '✔️'
         }
         
     }
 }
-function marcar()
+function marcarcomofeita(indice){
+    tarefa[indice].feito = !tarefa[indice].feito
+}
